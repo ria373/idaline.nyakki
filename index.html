@@ -332,6 +332,28 @@
             font-weight: 500;
             margin: 0;
         }
+        
+        /* SNSリンクのスタイル */
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+
+        .social-links img {
+            width: 32px;
+            height: 32px;
+        }
     </style>
 </head>
 
@@ -345,12 +367,10 @@
     </header>
 
     <div class="container">
-        <!-- お知らせボード -->
         <section id="noticeBoard">
             <p>【新着情報】 2025年8月12日サイトオープンしました！！</p>
         </section>
       
-        <!-- サイト紹介セクション -->
         <section id="profile">
             <h2>飯田線について</h2>
             <div class="profile-item">
@@ -379,7 +399,6 @@
             </div>
         </section>
 
-        <!-- 秘境駅リストセクション -->
         <section id="skills">
             <h2>秘境駅リスト</h2>
             <ul class="station-list">
@@ -421,7 +440,6 @@
 
         
 
-        <!-- お問い合わせセクション -->
         <section id="contact">
             <h2>フォーム</h2>
             <p>サイトへのご意見や要望があれば、以下のフォームからお気軽にお寄せください。</p>
@@ -431,6 +449,10 @@
 
     <footer>
         <p>Copyright© ria373 All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="【ここにX（旧Twitter）のアカウントURLを挿入】" target="_blank" aria-label="X (旧Twitter)"><img src="【Xのアイコン画像のURL】" alt="Xアイコン"></a>
+            <a href="【ここにInstagramのアカウントURLを挿入】" target="_blank" aria-label="Instagram"><img src="【Instagramのアイコン画像のURL】" alt="Instagramアイコン"></a>
+        </div>
     </footer>
 
     <script>
@@ -448,6 +470,10 @@
 </body>
 
 </html>
+
+
+
+
 
 
 
